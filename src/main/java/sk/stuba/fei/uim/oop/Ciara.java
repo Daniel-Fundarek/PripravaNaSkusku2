@@ -5,6 +5,7 @@ import lombok.Setter;
 import java.awt.*;
 import java.awt.geom.Line2D;
 
+
 import static java.lang.Math.round;
 
 public class Ciara extends Tvary{
@@ -30,7 +31,7 @@ public class Ciara extends Tvary{
 
     @Override
     public boolean ClickOnObject(int x, int y) {
-        double dist =Line2D.ptLineDist(this.x,this.y,x2,y2,x,y);
+        double dist = Line2D.ptLineDist(this.x,this.y,x2,y2,x,y);
         dist = round(dist);
         System.out.println(dist+" distance");
         if(dist<=1){

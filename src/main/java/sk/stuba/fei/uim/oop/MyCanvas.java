@@ -33,7 +33,6 @@ public class MyCanvas extends Canvas implements MouseListener, MouseMotionListen
         if(actual!=null){
             actual.paintObject(g);
         }
-
     }
 
     @Override

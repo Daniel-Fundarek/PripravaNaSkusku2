@@ -26,7 +26,6 @@ public class Kruh extends Tvary{
         g.fillOval(x,y,x2,y2);
         g.setColor(Color.WHITE);
         g.fillOval(x+x2/3,y+y2/3,x2/3,y2/3);
-
     }
 
     @Override
